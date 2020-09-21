@@ -1,0 +1,26 @@
+{
+  "name": "prodtracker_new",
+  "version": "1.0.0",
+  "description": "Test for NodeJS-based Prodtracker utilising a full stack including MongoDB, Express, React, XSLT and whatever else may be required",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon ./index.js --exec babel-node -e js"
+  },
+  "author": "Chris Standing",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-stage-0": "^6.24.1"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "child_process": "^1.0.2",
+    "express": "^4.17.1",
+    "mongodb": "^3.6.2",
+    "mongoose": "^5.10.6",
+    "nodemon": "^2.0.4",
+    "saxon-js": "^2.0.2",
+    "xslt3": "^2.0.2"
+  }
+}

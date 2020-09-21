@@ -1,0 +1,17 @@
+XSLT Saxon transfromer command examples:
+
+Generic example
+
+xslt3 -s:source -xsl:stylesheet -o:output
+
+Explicit example
+
+xslt3 -s:"C:\dev\Prodtracker_new\components\xslt\adaj054372.6ja.xml"  -xsl:"C:\dev\Prodtracker_new\components\xslt\extyles-tweak.xsl" -o:"C:\dev\Prodtracker_new\components\xslt\transformed.xml"
+
+xslt3 -s:"C:\dev\Prodtracker_new\components\info_files\abrd041828.info.xml"  -xsl:"C:\dev\Prodtracker_new\components\xslt\transform-test.xsl" -o:"C:\dev\Prodtracker_new\components\xslt\transformed.info.xml"
+
+xslt3 -s:"C:\dev\Prodtracker_new\components\info_files\abrd041828.info.xml"  -xsl:"C:\dev\Prodtracker_new\components\xslt\info-xml-to-json.xsl" -o:"C:\dev\Prodtracker_new\components\xslt\abrd041828.info.json"
+
+xslt3 -s:"C:\dev\Prodtracker_new\components\info_files\abtd043555.info.xml"  -xsl:"C:\dev\Prodtracker_new\components\xslt\info-xml-to-json.xsl" -o:"C:\dev\Prodtracker_new\components\xslt\abtd043555.info.json"
+
+xslt3 -s:"C:\dev\Prodtracker_new\components\info_files\adel051465.info.xml"  -xsl:"C:\dev\Prodtracker_new\components\xslt\info-xml-to-json.xsl" -o:"C:\dev\Prodtracker_new\components\xslt\adel051465.info.json"
